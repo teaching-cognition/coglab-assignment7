@@ -47,14 +47,17 @@ output: html_document
 ## exclusions
 ```{r}
 
-## calculate subject accuracy
-
 ## exclude filler items
 
 
 ## exclude practice trials
 
+
+## calculate subject accuracy
+
+
 ## exclude incorrect responses
+
 
 ## exclude subjects with accuracy < your pre-registered criteria
 
