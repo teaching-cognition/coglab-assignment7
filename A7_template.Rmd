@@ -1,0 +1,114 @@
+---
+title: "object-state-changes"
+output: html_document
+---
+# import packages
+```{r setup, include=FALSE}
+
+# load required packages
+
+
+```
+
+# import data
+
+```{r}
+# write code to read in prolific data csv
+#prolific_data =
+
+# write code to read in sona data csv
+
+# sona_data = 
+
+# see if the files have the same number of columns
+
+# if not, then delete the additional columns using select(-c(extra_column_name))
+
+
+```
+
+# bind Prolific + Sona
+
+```{r}
+# once both dataframes have the same number of columns, bind them together
+
+# final_data = rbind(name_of_first_dataset, name_of_second_dataset)
+```
+
+
+## basic descriptives
+```{r}
+## how many total participants?
+
+## how many total trials per participant?
+
+```
+
+## exclusions
+```{r}
+
+## calculate subject accuracy
+
+## exclude filler items
+
+
+## exclude practice trials
+
+## exclude incorrect responses
+
+## exclude subjects with accuracy < your pre-registered criteria
+
+
+## find out total participants after exclusion
+
+```
+
+# transforming RT
+
+```{r}
+# make sure rt is numeric using mutate
+
+# draw histogram of RTs: does it look normal?
+
+# transform rt to log rt using mutate
+
+# draw histogram of log-RTs: does it look normal?
+
+```
+
+# compute mean RTs
+
+```{r}
+# compute mean rts for each cell of your design at the subject level
+```
+
+
+# check assumptions
+
+## identify and remove outliers
+
+```{r}
+
+```
+
+## check normality
+
+```{r}
+
+```
+
+# conduct repeated measures anova
+
+```{r}
+
+```
+
+# visualize raw RT pattern
+```{r}
+
+```
+
+
+
+
+
