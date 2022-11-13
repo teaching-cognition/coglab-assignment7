@@ -47,7 +47,7 @@ output: html_document
 ## exclusions
 ```{r}
 
-## exclude filler items
+## exclude filler items & non-picture trials
 
 
 ## exclude practice trials
@@ -101,6 +101,14 @@ output: html_document
 ```
 
 # conduct repeated measures anova
+
+```{r}
+
+```
+
+# conduct post-hoc tests (if needed)
+
+Write code that would decompose a significant interaction, if there was one, OR analyze main effects if there was no significant interaction.
 
 ```{r}
 
